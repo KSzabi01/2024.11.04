@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+    <head>
+        <title>Táblázatok</title>
+    </head>
+    <body>
+        <h1>Táblázatok bemutatása</h1>
+        <p>Ez egy három soros, négy oszlopos táblázat.</p>
+        <table border="1">
+            <tr>
+                <th>ELADÁS</th>
+                <th>alma</th>
+                <th>körte</th>
+                <th>banán</th>
+            </tr>
+            <tr>
+                <th>kg</th>
+                <td>200</td>
+                <td>150</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <th>Ft</th>
+                <td>60000</td>
+                <td>45000</td>
+                <td>85000</td>
+            </tr>
+        </table>
+        <p>Cellák összevonása egy sorban.</p>
+        <table border="1">
+            <tr>
+                <td>valami</td>
+                <td>valami</td>
+                <td>valami</td>
+            </tr>
+            <tr>
+                <td>valami</td>
+                <td colspan="2">valami</td>
+                <!--összevonás-->
+            </tr>
+            <tr>
+                <td>valami</td>
+                <td>valami</td>
+                <td>valami</td>
+            </tr>
+        </table>
+        <p>Cellák összevonása egy oszlopban.</p>
+        <table border="1">
+            <tr>
+                <td>valami</td>
+                <td>valami</td>
+                <td>valami</td>
+            </tr>
+            <tr>
+                <td>valami</td>
+                <td rowspan="2">valami</td>
+                <td>valami</td>
+            </tr>
+            <tr>
+                <td>valami</td>
+                <!--összevonás-->
+                <td>valami</td>
+            </tr>
+        </table>
+        <p>órarend</p>
+        <table border="1">
+            <tr>
+                <th colspan="7">Jelenlegi órarend</th>
+            </tr>
+            <tr>
+                <th colspan="2"></th>
+                <th>Hétfő</th>
+                <th>Kedd</th>
+                <th>Szerda</th>
+                <th>Csütörtök</th>
+                <th>Péntek</th>
+            </tr>
+            <tr>
+                <th>1.</th>
+                <th>07:40-08:25</th>
+                <td rowspan="2">IKT projektmunka</td>
+                <td>Testnevelés</td>
+                <td>-----</td>
+                <td>Testnevelés</td>
+                <td>-----</td>
+            </tr>
+            <tr>
+                <th>2.</th>
+                <th>08:30-09:15</th>
+                <!--összevonás-->
+                <td>Osztályfőnöki</td>
+                <td>Testnevelés</td>
+                <td rowspan="2">Angol</td>
+                <td rowspan="2">Irodalom</td>
+            </tr>
+            <tr>
+                <th>3.</th>
+                <th>09:25-10:10</th>
+                <td rowspan="3">Inf. és távk. a. gy.</td>
+                <td>Honvédelem</td>
+                <td rowspan="2">Matematika</td>
+                <!--Összevonás-->
+                <!--Összevonás-->
+            </tr>
+            <tr>
+                <th>4.</th>
+                <th>10:20-11:05</th>
+                <!--Összevonás-->
+                <td>KTT</td>
+                <!--Összevonás-->
+                <td>KTT</td>
+                <td>Történelem</td>
+            </tr>
+            <tr>
+                <th>5.</th>
+                <th>11:15-12:00</th>
+                <!--Összevonás-->
+                <td>Matematika</td>
+                <td>KTT</td>
+                <td>Nyelvtan</td>
+                <td>KTT</td>
+            </tr>
+            <tr>
+                <th>6.</th>
+                <th>12:20-13:05</th>
+                <td rowspan="2">Prog. a. gy.</td>
+                <td>Történelem</td>
+                <td>Történelem</td>
+                <td>Matematika</td>
+                <td>Testnevelés</td>
+            </tr>
+            <tr>
+                <th>7.</th>
+                <th>12:10-13:55</th>
+                <!--Összevonás-->
+                <td>Nyelvtan</td>
+                <td rowspan="2">Angol</td>
+                <td rowspan="2">Digi. kult.</td>
+                <td>-----</td>
+            </tr>
+            <tr>
+                <th>8.</th>
+                <th>14:00-14:45</th>
+                <td>-----</td>
+                <td>-----</td>
+                <!--Összevonás-->
+                <!--Összevonás-->
+                <td>-----</td>
+            </tr>
+        </table>
+    </body>
+</html>    
